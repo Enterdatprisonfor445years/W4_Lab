@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force .cs files to use LF in the repo
+*.cs text eol=lf
